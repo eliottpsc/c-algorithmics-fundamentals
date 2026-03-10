@@ -6,7 +6,7 @@
 /*   By: eruffin <eruffin@learner.42.tech>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/09 19:56:17 by eruffin           #+#    #+#             */
-/*   Updated: 2026/03/09 20:02:56 by eruffin          ###   ########.fr       */
+/*   Updated: 2026/03/10 17:44:27 by eruffin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ int	ft_fibonacci(int index);
 
 int	ft_fibonacci(int index)
 {
-	if (index == -1)
+	if (index < 0)
 		return (-1);
 	if (index == 0)
 		return (0);
@@ -32,6 +32,6 @@ int	main(void)
 {
 printf("%d\n", ft_fibonacci(7));
 printf("%d\n", ft_fibonacci(0));
-printf("%d\n", ft_fibonacci(-1));
+printf("%d\n", ft_fibonacci(-5));
 }
 */
